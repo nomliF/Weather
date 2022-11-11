@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81BD9BD291E6F830072CF6A /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81BD9BC291E6F830072CF6A /* WeatherRow.swift */; };
 		F858755C291D5ED100A86399 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858755B291D5ED100A86399 /* WeatherApp.swift */; };
 		F858755E291D5ED100A86399 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858755D291D5ED100A86399 /* ContentView.swift */; };
 		F8587560291D5ED200A86399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F858755F291D5ED200A86399 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F81BD9BC291E6F830072CF6A /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		F8587558291D5ED100A86399 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F858755B291D5ED100A86399 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		F858755D291D5ED100A86399 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F81BD9BB291E6F360072CF6A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F81BD9BC291E6F830072CF6A /* WeatherRow.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		F858754F291D5ED100A86399 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		F858755A291D5ED100A86399 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				F81BD9BB291E6F360072CF6A /* Component */,
 				F858756C291D61BD00A86399 /* Views */,
 				F858755B291D5ED100A86399 /* WeatherApp.swift */,
 				F858757B291D75AC00A86399 /* Extensions.swift */,
@@ -183,6 +194,7 @@
 				F858755E291D5ED100A86399 /* ContentView.swift in Sources */,
 				F858755C291D5ED100A86399 /* WeatherApp.swift in Sources */,
 				F858756B291D5FE200A86399 /* LocationManager.swift in Sources */,
+				F81BD9BD291E6F830072CF6A /* WeatherRow.swift in Sources */,
 				F8587570291D66F000A86399 /* LoadingView.swift in Sources */,
 				F8587576291D71F500A86399 /* ModelData.swift in Sources */,
 				F8587574291D71AD00A86399 /* WeatherView.swift in Sources */,
